@@ -1,0 +1,36 @@
+body{
+    background-color: beige;
+}
+.flex-container{
+    display: flex;
+    /* flex wrap coloca los el direction y el wrap en uno solo  */
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    border: 1px solid black;
+    background: #ccc;
+    padding: 20px;
+    margin: 0 auto;
+    height: 600px;
+
+
+}
+.caja{
+    border: 1px solid rgb(70, 69, 69);
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    /* para alinear verticalmente  */
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+    
+
+
+
+}
